@@ -73,7 +73,7 @@ fun ParkingCalculatorScreen() {
             Text("Calcular Costo")
         }
 
-        Spacer(modifier = Modifier.height(16.dp))
+        Spacer(modifier = Modifier.height(15.dp))
 
         Text("Costo: S/.${String.format("%.2f", cost)}")
     }
