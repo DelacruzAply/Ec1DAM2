@@ -15,7 +15,6 @@ import androidx.compose.ui.tooling.preview.Preview
 import pe.edu.idat.ec1dam.ui.theme.Ec1DAMTheme
 
 
-import androidx.compose.material.*
 import androidx.compose.runtime.*
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier

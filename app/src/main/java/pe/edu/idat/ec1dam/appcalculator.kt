@@ -18,16 +18,8 @@ import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.text.input.TextFieldValue
-import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
-import pe.edu.idat.ec1dam.ui.theme.Ec1DAMTheme
 
-@Preview(showBackground = true)
-@Composable
-fun GreetingPreview() {
-    Ec1DAMTheme {
-    }
-}
 
 @Composable
 fun ParkingCalculatorScreen() {
