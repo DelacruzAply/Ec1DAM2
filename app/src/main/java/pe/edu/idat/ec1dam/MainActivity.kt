@@ -19,7 +19,8 @@ class MainActivity : ComponentActivity() {
         enableEdgeToEdge()
         setContent {
             Ec1DAMTheme {
-                ParkingCalculatorScreen()
+                calculator()
+
 
             }
         }

@@ -70,6 +70,7 @@ fun PromedioScreen() {
             label = { Text("Nota 3") }
         )
 
+
         Spacer(modifier = Modifier.height(16.dp))
 
         TextField(

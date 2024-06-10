@@ -22,7 +22,7 @@ import androidx.compose.ui.unit.dp
 import java.util.Calendar
 
 @Composable
-fun DniScreen() {
+fun Dni() {
     var birthYear by remember { mutableStateOf(TextFieldValue("")) }
     var message by remember { mutableStateOf("") }
 
@@ -68,6 +68,7 @@ fun DniScreen() {
 
 
         Spacer(modifier = Modifier.height(16.dp))
+
 
         Text(message)
     }

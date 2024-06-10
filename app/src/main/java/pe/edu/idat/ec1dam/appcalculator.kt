@@ -21,8 +21,9 @@ import androidx.compose.ui.text.input.TextFieldValue
 import androidx.compose.ui.unit.dp
 
 
+
 @Composable
-fun ParkingCalculatorScreen() {
+fun calculator() {
     var hours by remember { mutableStateOf(TextFieldValue("")) }
     var minutes by remember { mutableStateOf(TextFieldValue("")) }
     var cost by remember { mutableStateOf(0.0) }
